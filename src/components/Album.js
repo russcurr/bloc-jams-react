@@ -55,12 +55,12 @@ class Album extends Component {
   }
 
   showIcon(song, index) {
-    if(this.state.currentSong == song && this.state.isPlaying == true) {
+    if(this.state.currentSong === song && this.state.isPlaying == true) {
       return <ion-icon name="pause"></ion-icon>
     } else {
-      return <ion-icon name="play"></ion-icon>
-    }
-    };
+        return <ion-icon name="play"></ion-icon>
+      }
+  };
 
 
   render() {
