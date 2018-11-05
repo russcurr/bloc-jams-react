@@ -57,7 +57,7 @@ class Album extends Component {
 
   handleNextClick() {
     const currentI = this.state.album.songs.findIndex(song => this.state.currentSong === song);
-    const newI = Math.min(5, currentI + 1);
+    const newI = Math.min(this.state.album.songs.length - 1, currentI + 1);
     const newTrack = this.state.album.songs[newI];
     this.setSong(newTrack)
     this.play();
