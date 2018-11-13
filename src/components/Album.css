@@ -1,0 +1,43 @@
+
+img {
+  margin: 20px;
+  width: 50%;
+  height: 400px;
+  border: 3px solid black;
+  padding: 5px;
+  float: right;
+
+}
+
+#album-title {
+  text-align: center;
+  padding: 2px;
+  font-size: 32px;
+  font-family: sans-serif;
+  float: center;
+}
+
+.artist {
+  text-align: center;
+  padding: 3px;
+  font-family: sans-serif;
+  font-size: 24px;
+  float: center;
+}
+
+#release-info {
+  text-align: center;
+  padding: 2px;
+  font-size: 18px;
+  float: center;
+  font-family: sans-serif;
+}
+
+table {
+  text-align: right;
+  padding: 3px;
+  font-family: sans-serif;
+  font-size: 24px;
+  width: 40%;
+
+}
